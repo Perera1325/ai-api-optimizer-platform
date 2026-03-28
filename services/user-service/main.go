@@ -17,7 +17,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", handler)
+	http.HandleFunc("/api", handler)
 	log.Println("User Service running on port 8081")
 	log.Fatal(http.ListenAndServe(":8081", nil))
 }
