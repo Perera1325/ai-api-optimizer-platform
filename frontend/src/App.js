@@ -6,7 +6,7 @@ const [status, setStatus] = useState("Checking...");
 const [error, setError] = useState("");
 
 useEffect(() => {
-fetch("/api")
+fetch("/api/")
 .then((res) => res.json())
 .then((data) => {
 setMessage(data.message);
