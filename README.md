@@ -30,3 +30,53 @@ Day 1 Progress
 
 \- Basic frontend-backend communication established
 
+
+
+\## 🚀 Deployment (AWS + NGINX)
+
+
+
+This project is fully deployed on an AWS EC2 instance using:
+
+
+
+\* \*\*Backend:\*\* Go (Microservices + API Gateway)
+
+\* \*\*Frontend:\*\* React (Production Build)
+
+\* \*\*Server:\*\* NGINX (Reverse Proxy)
+
+\* \*\*Cloud:\*\* AWS EC2 (Ubuntu)
+
+
+
+\### Architecture:
+
+
+
+Client → NGINX → API Gateway → Microservices
+
+
+
+\### Features:
+
+
+
+\* Real-time API analytics
+
+\* Request monitoring
+
+\* Reverse proxy routing
+
+\* Cloud deployment
+
+
+
+\### Access:
+
+
+
+http://<your-ec2-ip>
+
+
+
